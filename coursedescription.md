@@ -108,6 +108,8 @@ Week 45, expect no teaching Wednesday, but Friday 13:15 - 15:00 (yet to be organ
 
 ### Exercise classes
 
+#### Block 1
+
  * Class 1: Henriette
    * Monday: NBB 01.1.H.142
    * Wednesday: DIKU 1-0-04
@@ -130,6 +132,30 @@ Week 45, expect no teaching Wednesday, but Friday 13:15 - 15:00 (yet to be organ
  * Class 7: Magnus
    * Online 
 
+#### Block 2
+
+ * Class 1: Henriette
+   * Monday: NBB 01.1.H.142
+   * Wednesday: DIKU 1-0-04
+ * Class 2: Jens
+   * Monday: NBB 01.1.I.156
+   * Wednesday: DIKU 1-0-10
+ * Class 3: Jonas
+   * Monday: NBB 01.2.H.142
+   * Wednesday: DIKU 1-0-22
+ * Class 4: Jóhann
+   * Monday: NBB 01.2.I.158
+   * Wednesday: DIKU 1-0-26
+ * Class 5: Lars
+   * Monday: NBB 01.3.H.142
+   * Wednesday: DIKU 1-0-30
+ * Class 6: Joachim
+   * Monday: HCØ A111
+   * Wednesday: DIKU 1-0-37
+
+ * Class 7: Magnus
+   * Online 
+
 
 ### Room details
 Map of Nørre Campus:
@@ -146,9 +172,11 @@ https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/
    * This sessions have a café structure and are dedicated to help with assignments and other open questions.
  * Fridays 13:15-15:00
    * TA organised café classes for help with assignments and exercises.
-   * Friday Sep 24 it will be 14:15-16:00
 
 ### Rooms
+
+#### Block 1
+
 Wednesday: 
  * NBB 01.1.H.142
  * NBB 01.1.I.156
@@ -161,6 +189,20 @@ Friday:
  * A111
  * C103 (only if others are full)
 
+#### Block 2
+
+Wednesday: 
+ * DIKU 1-0-04
+ * DIKU 1-0-10
+ * DIKU 1-0-18
+ * DIKU 1-0-22
+ * DIKU 1-0-14
+
+Friday:
+ * HCØ A105
+ * HCØ A104
+ * HCØ A102
+ * HCØ A101
 
 
 ## Study group formation
@@ -173,12 +215,12 @@ The instructors can also be the link to the study administration; if there is so
 There are 7-8 assignment in total during the course with deadline roughly every second week with the following deadlines.
 
 
-|                                   | Expected deadline   |
+| Topic                             | Expected deadline   |
 | --------------------------------- | ------------------- |
-| A0: File(0) - Data encoding       | 19 Sep @ 16:00      |
+| A0: Data representation           | 19 Sep @ 16:00      |
 | A1: Dynamic memory and caching    | 10 Oct @ 16:00      |
 | A2: Concurrency                   | 31 Oct @ 16:00      |
-| A3: File network distribution     | 21 Nov @ 16:00      |
+| A3: Client network distribution   | 21 Nov @ 16:00      |
 | A4: P2P networking and security   | 05 Dec @ 16:00      |
 | A5: Simple architecture.          | 19 Dec @ 16:00      |
 | A6: Pipelined architecture        | 08 Jan @ 16:00      |

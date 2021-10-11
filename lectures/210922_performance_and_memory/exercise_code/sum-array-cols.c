@@ -4,13 +4,13 @@
 //definerer at BAD_INPUT ikke må være et 0 dimensionel array
 #define BAD_INPUT 0
 
-long sum_array_cols(long *a, int M, int N)
+long sum_array_cols(long *a, int N, int M)
 {
   unsigned long i, j;
   long sum = 0;
 
-  for (j = 0; j < N; j++) {
-    for (i = 0; i < M; i++) {
+  for (j = 0; j < M; j++) {
+    for (i = 0; i < N; i++) {
       sum += a[i * M + j];
       printf("%lu\n", sum);
     }
@@ -29,20 +29,21 @@ int main (int argc, char* argv[]) {
   }
 
   int res;
-  res = sscanf(argv[1],"%lu", &m);
-  if (res == BAD_INPUT) {
-    printf("I want two ints as arguments!\n");
-    return EXIT_SUCCESS;
-  }
-
   res = sscanf(argv[1],"%lu", &n);
   if (res == BAD_INPUT) {
     printf("I want two ints as arguments!\n");
     return EXIT_SUCCESS;
   }
 
+  res = sscanf(argv[2],"%lu", &m);
+
+  if (res == BAD_INPUT) {
+    printf("I want two ints as arguments!\n");
+    return EXIT_SUCCESS;
+  }
+
   // Give me some memory with the size of the array
-  long* input = (long*) malloc(m * n * sizeof(long));
+  long* input = (long*) malloc(n * m * sizeof(long));
   // Note, I do not care about the input
 
   //adding values to the matrix, can be removed, resulting in 0's
@@ -53,7 +54,7 @@ int main (int argc, char* argv[]) {
   }
 
   // use volatile to prevent compiler from optimizing this away!
-  volatile long l = sum_array_cols(input, m, n);
+  volatile long l = sum_array_cols(input, n, m);
 
   printf("Sum is: %ld\n", l);
 
