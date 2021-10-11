@@ -1,0 +1,7 @@
+*
+!*.pdf
+!*.odp
+!*.md
+!.gitignore
+!*.c
+!lecture_code
